@@ -706,6 +706,9 @@ input:focus {
   .collections-card-new p {
     top: -14px;
     left: -20px; }
+  .collections-card-hover-links {
+    left: 23%;
+    top: 40%; }
   .designers {
     padding-bottom: 0; }
     .designers-card {
@@ -859,6 +862,9 @@ input:focus {
   .collections-card-new p {
     top: -14px;
     left: -20px; }
+  .collections-card-hover-links {
+    left: 28%;
+    top: 40%; }
   .designers {
     padding-bottom: 2rem; }
     .designers-card {
@@ -1029,6 +1035,9 @@ input:focus {
   .collections-card-new p {
     top: -14px;
     left: -20px; }
+  .collections-card-hover-links {
+    left: 28%;
+    top: 40%; }
   .designers {
     padding-bottom: 2rem; }
     .designers-card {

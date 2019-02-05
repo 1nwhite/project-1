@@ -526,7 +526,9 @@ input:focus {
     background: transparent;
     border: 1px solid #636363;
     border-right: none;
-    padding: 1.5rem; }
+    padding: 1.5rem;
+    -webkit-border-radius: 0;
+            border-radius: 0; }
   .footer-form button {
     float: left;
     border: none;
@@ -648,18 +650,6 @@ input:focus {
         font-size: 16px; }
         .header-menu_active li a:hover {
           border-bottom: 0px solid #ffce76; }
-  #banner .carousel-caption {
-    left: 25%;
-    bottom: 2rem; }
-    #banner .carousel-caption h1, #banner .carousel-caption h2 {
-      font-size: 1.3rem; }
-    #banner .carousel-caption p {
-      font-size: 0.7rem;
-      margin-bottom: .6rem; }
-      #banner .carousel-caption p:before {
-        width: 1.2rem;
-        height: 1px;
-        margin-right: 0.5rem; }
   .section-header {
     padding-top: 4.5rem;
     margin-bottom: 6rem; }
@@ -675,6 +665,20 @@ input:focus {
     -webkit-transform: translateX(-10rem);
         -ms-transform: translateX(-10rem);
             transform: translateX(-10rem); }
+  .banner {
+    height: 40vh; }
+  #banner .carousel-caption {
+    left: 25%;
+    bottom: 2rem; }
+    #banner .carousel-caption h1, #banner .carousel-caption h2 {
+      font-size: 1.3rem; }
+    #banner .carousel-caption p {
+      font-size: 0.7rem;
+      margin-bottom: .6rem; }
+      #banner .carousel-caption p:before {
+        width: 1.2rem;
+        height: 1px;
+        margin-right: 0.5rem; }
   .choice {
     -webkit-background-size: 90% 90%;
             background-size: 90%;
@@ -798,18 +802,6 @@ input:focus {
         font-size: 16px; }
         .header-menu_active li a:hover {
           border-bottom: 0px solid #ffce76; }
-  #banner .carousel-caption {
-    left: 20%;
-    bottom: 4rem; }
-    #banner .carousel-caption h1, #banner .carousel-caption h2 {
-      font-size: 1.4rem; }
-    #banner .carousel-caption p {
-      font-size: 0.8rem;
-      margin-bottom: .5rem; }
-      #banner .carousel-caption p:before {
-        width: 1.2rem;
-        height: 1px;
-        margin-right: 0.5rem; }
   .section-header {
     padding-top: 4.5rem;
     margin-bottom: 6rem; }
@@ -825,6 +817,20 @@ input:focus {
     -webkit-transform: translateX(-10rem);
         -ms-transform: translateX(-10rem);
             transform: translateX(-10rem); }
+  .banner {
+    height: 40vh; }
+  #banner .carousel-caption {
+    left: 20%;
+    bottom: 4rem; }
+    #banner .carousel-caption h1, #banner .carousel-caption h2 {
+      font-size: 1.4rem; }
+    #banner .carousel-caption p {
+      font-size: 0.8rem;
+      margin-bottom: .5rem; }
+      #banner .carousel-caption p:before {
+        width: 1.2rem;
+        height: 1px;
+        margin-right: 0.5rem; }
   .choice {
     -webkit-background-size: 80% 80%;
             background-size: 80%;

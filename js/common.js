@@ -22,10 +22,10 @@ $(document).ready(function() {
 	})
 
 //////////// Actvie__btn
-        $('.header-btn').on('click',function(e){
-          e.preventDefault;
-          $(this).toggleClass('header-btn_active');
-          $('.header-menu').toggleClass('header-menu_active')
-        });	
-	
+    $('.header-btn').on('click',function(e){
+        e.preventDefault;
+        $(this).toggleClass('header-btn_active');
+        $('.header-menu').toggleClass('header-menu_active')
+    });	
+		
 });
